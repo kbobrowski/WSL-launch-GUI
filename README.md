@@ -29,7 +29,7 @@ For high-DPI displays tick "Override high DPI scaling behavior" and select "Appl
 
 It is convenient to create a shortcut to either `run_app.bat` or `run_app_no_console.bat`, with "Start in" parameter set to this repository directory and "Target" parameter specifying application to launch, e.g.:
 
-- terminal application: `cmd /C %userprofile%\projects\WSL-launch-GUI\run_app_no_console.bat urxvt multiwindow 0`
+- urxvt terminal on Ubuntu: `cmd /C %userprofile%\projects\WSL-launch-GUI\run_app_no_console.bat urxvt multiwindow 0`
 - i3 on Ubuntu: `cmd /C %userprofile%\projects\WSL-launch-GUI\run_app_no_console.bat i3 nodecoration 1`
 - mate on openSUSE: `cmd /C %userprofile%\projects\WSL-launch-GUI\run_app_no_console.bat mate-session nodecoration 2 %userprofile%\AppData\Local\Microsoft\WindowsApps\openSUSE-42.exe`
 
