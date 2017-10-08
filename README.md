@@ -1,4 +1,4 @@
-# Launch Linux GUI application on Windows
+# Launch Linux GUI applications / window managers on Windows
 
 Scripts to launch GUI applications / window managers installed on a Linux distribution from Windows Store.
 
