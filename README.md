@@ -21,6 +21,10 @@ Defaults:
 - `pause_cmd_window_at_exit:    false`
 - `vcxsrv_executable:           vcxsrv.exe`
 
+## Tip
+
+For high-DPI displays tick "Override high DPI scaling behavior" and select "Application" in "Compatibility" tab of vcxsrv.exe properties.
+
 ## Examples
 
 It is convenient to create a shortcut to either `run_app.bat` or `run_app_no_console.bat`, with "Start in" parameter set to this repository directory and "Target" parameter specifying application to launch, e.g.:
